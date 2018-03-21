@@ -1,6 +1,6 @@
 {
-  "name": "bootstrap",
-  "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+  "name": "bootstrap-xxl",
+  "description": "Bootstrap 4 with additional breakpoints for large displays",
   "version": "4.0.0",
   "keywords": [
     "css",
@@ -11,11 +11,8 @@
     "framework",
     "web"
   ],
-  "homepage": "https://getbootstrap.com",
-  "author": "The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)",
-  "contributors": [
-    "Twitter, Inc."
-  ],
+  "homepage": "https://bootstrap-xxl.com",
+  "author": "thunderblaster",
   "scripts": {
     "bundlesize": "bundlesize",
     "css": "npm-run-all --parallel css-lint* css-compile* --sequential css-prefix* css-minify*",
@@ -73,10 +70,10 @@
   "main": "dist/js/bootstrap",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/twbs/bootstrap.git"
+    "url": "git+https://github.com/thunderblaster/bootstrap-xxl.git"
   },
   "bugs": {
-    "url": "https://github.com/twbs/bootstrap/issues"
+    "url": "https://github.com/thunderblaster/bootstrap-xxl/issues"
   },
   "license": "MIT",
   "dependencies": {},
